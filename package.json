@@ -3,16 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.6.1"
+    "react-scripts": "0.6.1",
+    "sw-precache": "4.1.0"
   },
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
   "scripts": {
+    "build": "npm run clean && react-scripts build && npm run service-worker",
+    "clean": "rm -fr build/*",
+    "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "service-worker": "cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "homepage": "./"
 }
