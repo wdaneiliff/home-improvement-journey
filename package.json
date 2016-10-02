@@ -20,6 +20,7 @@
   "scripts": {
     "build": "npm run clean && react-scripts build && npm run service-worker",
     "clean": "rm -fr build/*",
+    "deploy:prod": "npm run build && firebase deploy",
     "eject": "react-scripts eject",
     "flow": "flow",
     "start": "react-scripts start",
