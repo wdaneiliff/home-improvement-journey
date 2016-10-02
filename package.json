@@ -11,6 +11,9 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "scripts": {
     "build": "npm run clean && react-scripts build && npm run service-worker",
     "clean": "rm -fr build/*",
