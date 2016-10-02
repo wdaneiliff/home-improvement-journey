@@ -3,6 +3,9 @@ import { storiesOf, action, linkTo } from '@kadira/storybook';
 import App from './app';
 
 storiesOf('App', module)
-  .add('default render', () => (
+  .add('render default', () => (
     <App/>
+  ))
+  .add('render with name', () => (
+    <App name="Mike" />
   ));
