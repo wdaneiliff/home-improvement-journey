@@ -4,7 +4,8 @@
   "private": true,
   "devDependencies": {
     "react-scripts": "0.6.1",
-    "sw-precache": "4.1.0"
+    "sw-precache": "4.1.0",
+    "@kadira/storybook": "^2.5.2"
   },
   "dependencies": {
     "react": "^15.3.2",
@@ -16,7 +17,9 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "service-worker": "cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook"
   },
   "homepage": "./"
 }
