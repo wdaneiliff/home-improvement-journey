@@ -3,7 +3,19 @@ import React, { Component, PropTypes } from 'react'
 import logo from '../logo.svg'
 import './app.css'
 
+type Props = {
+  name: string
+}
+
+type DefaultProps = {
+  name: string
+}
+
 class App extends Component {
+  props: Props
+
+  static defaultProps: DefaultProps
+
   render() {
     const {
       name
@@ -34,7 +46,7 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  name: ''
+  name: 'Mike'
 }
 
 export default App

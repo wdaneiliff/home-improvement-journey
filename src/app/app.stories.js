@@ -1,5 +1,6 @@
+/* @flow */
 import React from 'react';
-import { storiesOf, action, linkTo } from '@kadira/storybook';
+import { storiesOf } from '@kadira/storybook';
 import { text } from '@kadira/storybook-addon-knobs'
 import App from './app';
 
