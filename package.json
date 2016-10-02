@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@kadira/storybook": "2.5.2",
+    "@kadira/storybook-addon-knobs": "1.2.3",
     "react-scripts": "0.6.1",
-    "sw-precache": "4.1.0",
-    "@kadira/storybook": "^2.5.2"
+    "sw-precache": "4.1.0"
   },
   "dependencies": {
     "react": "^15.3.2",
