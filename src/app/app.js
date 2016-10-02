@@ -1,5 +1,5 @@
 /* @flow */
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 import logo from '../logo.svg'
 import './app.css'
 
@@ -25,6 +25,12 @@ class App extends Component {
       </div>
     )
   }
+}
+
+App.displayName = 'App'
+
+App.propTypes = {
+  name: PropTypes.string
 }
 
 App.defaultProps = {

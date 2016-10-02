@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@kadira/react-storybook-addon-info": "3.2.1",
     "@kadira/storybook": "2.5.2",
     "@kadira/storybook-addon-knobs": "1.2.3",
     "react-scripts": "0.6.1",
