@@ -1,9 +1,20 @@
+/* @flow */
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import './app.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.name = 'Mike'
+  }
+
+  myTest = () => {
+    console.log(this.name)
+  }
+
   render() {
+    this.myTest()
     return (
       <div className="App">
         <div className="App-header">
