@@ -26,7 +26,7 @@
     "service-worker": "cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
     "storybook": "start-storybook -p 9009 -s public",
     "storybook:build": "build-storybook",
-    "test": "react-scripts test --env=jsdom"
+    "test": "flow && react-scripts test --env=jsdom"
   },
   "homepage": "./"
 }
