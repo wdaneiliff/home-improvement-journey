@@ -6,7 +6,6 @@
     "@kadira/react-storybook-addon-info": "3.2.1",
     "@kadira/storybook": "2.24.0",
     "@kadira/storybook-addon-knobs": "1.2.3",
-    "flow-bin": "0.33.0",
     "react-scripts": "0.6.1",
     "sw-precache": "4.1.0"
   },
@@ -22,12 +21,11 @@
     "clean": "rm -fr build/*",
     "deploy:prod": "npm run build && firebase deploy",
     "eject": "react-scripts eject",
-    "flow": "flow",
     "start": "react-scripts start",
     "service-worker": "cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
     "storybook": "start-storybook -p 9009 -s public",
     "storybook:build": "build-storybook",
-    "test": "flow && react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom"
   },
   "homepage": "./"
 }
