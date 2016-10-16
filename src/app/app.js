@@ -1,13 +1,24 @@
-/* @flow */
 import React, { Component, PropTypes } from 'react'
 import logo from '../logo.svg'
 import './app.css'
+// import { loadProduct } from '../utils/bd-api'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { product: {}}
+  }
+
+  componentDidMount() {
+    // loadProduct('10089623').then((product) => this.setState({product}))
+  }
+
   render() {
     const {
       name
     } = this.props
+
+    // console.log(this.state.product)
 
     return (
       <div className="App">
