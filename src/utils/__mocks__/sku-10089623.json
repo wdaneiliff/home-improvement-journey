@@ -1,0 +1,191 @@
+{
+  "success": true,
+  "data": {
+    "productItemName": "Summer Wreath Gray / Stair Nose (038) 5/8\" x 3 3/8\" x 78\"",
+    "warrantyDetails": [
+      {
+        "name": "Allow Claims?",
+        "value": null
+      },
+      {
+        "name": "Residential Warranty (in years)",
+        "value": null
+      },
+      {
+        "name": "Commercial Warranty (in years)",
+        "value": null
+      },
+      {
+        "name": "Finish Warranty (in years)",
+        "value": null
+      },
+      {
+        "name": "Structural Warranty (in years)",
+        "value": null
+      },
+      {
+        "name": "Manufacturer Warranty",
+        "value": null
+      },
+      {
+        "name": "Component Warranty",
+        "value": null
+      },
+      {
+        "name": "Assembly Required?",
+        "value": null
+      }
+    ],
+    "isDiscontinued": false,
+    "creationdate": "2015-06-12T23:12:12-07:00",
+    "mainImage": {
+      "alt": "sku_9669_comp",
+      "thumbnails": [
+        {
+          "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/yanchi/images/yanchi-bamboo-molding---premium-select-collection/sku_9669_comp_60.jpg",
+          "size": 60
+        },
+        {
+          "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/yanchi/images/yanchi-bamboo-molding---premium-select-collection/sku_9669_comp_250.jpg",
+          "size": 250
+        },
+        {
+          "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/yanchi/images/yanchi-bamboo-molding---premium-select-collection/sku_9669_comp.jpg",
+          "size": 1000
+        }
+      ],
+      "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/yanchi/images/yanchi-bamboo-molding---premium-select-collection/sku_9669_comp.jpg"
+    },
+    "vertImage": {
+      "alt": "sku_9668_vert",
+      "thumbnails": [
+        {
+          "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/vanier/images/vanier-engineered-hardwood-moldings---extra-wide-plank-oak-collection/sku_9668_vert_60.jpg",
+          "size": 60
+        },
+        {
+          "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/vanier/images/vanier-engineered-hardwood-moldings---extra-wide-plank-oak-collection/sku_9668_vert.jpg",
+          "size": 250
+        },
+        {
+          "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/vanier/images/vanier-engineered-hardwood-moldings---extra-wide-plank-oak-collection/sku_9668_vert.jpg",
+          "size": 1000
+        }
+      ],
+      "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/linked-accessory/vanier/images/vanier-engineered-hardwood-moldings---extra-wide-plank-oak-collection/sku_9668_vert.jpg"
+    },
+    "productType": "Accessory",
+    "currency": "USD",
+    "categoryName": "Linked Accessories",
+    "pricingTiers": [
+      {
+        "retailPrice": 95.56,
+        "fromQty": 1,
+        "dealPrice": null
+      }
+    ],
+    "features": null,
+    "hasAccessories": false,
+    "tags": [
+      {
+        "name": "Style",
+        "value": "Summer Wreath Gray"
+      },
+      {
+        "name": "Type",
+        "value": "Stair Nose (038) 5/8\" x 3 3/8\" x 78\""
+      }
+    ],
+    "outOfBoxUnitDetails": {
+      "weight": null,
+      "outOfBoxUnitName": null,
+      "height": null,
+      "weightUnit": null,
+      "width": null,
+      "length": null
+    },
+    "productAttachments": [],
+    "orderType": "Pallet",
+    "sellerChannel": "Retail",
+    "taxCode": "P0000000",
+    "deals": [],
+    "hasSample": false,
+    "specifications": [
+      {
+        "name": "Color",
+        "value": []
+      }
+    ],
+    "productId": 73339,
+    "category": {
+      "categoryName": "Linked Accessories",
+      "categoryId": 1725,
+      "categoryCode": "FLWOAC",
+      "categoryKey": "linked-accessories"
+    },
+    "storageUnitDetails": {
+      "maxStackWeight": 12,
+      "maxNoStackedUnit": 1,
+      "storageUnit": null,
+      "weight": 12,
+      "height": null,
+      "width": null,
+      "length": null,
+      "stackableFlag": null
+    },
+    "skuNumber": "10089623",
+    "firstPublishDate": "2013-11-08T00:00:00-08:00",
+    "brand": {
+      "logo": {
+        "alt": "Vanier",
+        "thumbnails": [
+          {
+            "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/brands/images/brand_vanier_large.jpg",
+            "size": 400
+          }
+        ],
+        "url": "https://dvlql5l8rro2c.cloudfront.net/production/bdsellerassets/brands/images/brand_vanier_large.jpg"
+      },
+      "name": "Vanier",
+      "brandId": 69405
+    },
+    "hasPDP": false,
+    "images": [],
+    "priceUnitDetails": {
+      "priceUnitName": "piece",
+      "priceUnitPerSellUnit": 1
+    },
+    "sellUnitDetails": {
+      "weight": 4,
+      "height": null,
+      "width": null,
+      "sellPerShipUnit": 8,
+      "sellunitPerStorageUnit": null,
+      "length": null,
+      "sellUnitName": "piece"
+    },
+    "sampleType": "Not Available",
+    "productName": "Engineered Hardwood Moldings - Hampton Wide Plank Collection",
+    "channel": [
+      {
+        "channelName": "builddirect.com and builddirect intranet",
+        "channelId": 647
+      }
+    ],
+    "filters": [],
+    "newProduct": false,
+    "productUrl": "https://www.builddirect.com/p/Vanier-Engineered-Hardwood-Moldings-Hampton-Wide-Plank-Collection--10089623",
+    "supplier": {
+      "aliasName": "Moldings Online"
+    }
+  },
+  "statusCode": 200,
+  "validationErrors": null,
+  "failureReason": null,
+  "responseError": null,
+  "meta": {
+    "offset": null,
+    "limit": null,
+    "count": 1
+  }
+}
