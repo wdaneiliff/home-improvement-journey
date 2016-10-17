@@ -46,8 +46,8 @@ class App extends Component {
 
           <Match exactly pattern="/" component={Home} />
           <Match exactly pattern="/projects" component={ProjectList} />
-          <Match exactly pattern="/projects/:id(\d+)" component={Project} />
-          <Match exactly pattern="/projects/:id(\d+)/milestones/(\d+)" component={MilestoneDetails} />
+          <Match exactly pattern="/projects/:projectId(\d+)" component={Project} />
+          <Match exactly pattern="/projects/:projectId(\d+)/milestones/:milestoneId(\d+)" component={MilestoneDetails} />
           <Match exactly pattern="/projects/add" component={ProjectSetup} />
           <Miss component={NotFound}/>
         </div>
