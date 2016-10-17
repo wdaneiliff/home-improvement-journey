@@ -1,34 +1,14 @@
 import React, { Component, PropTypes } from 'react'
 import { BrowserRouter, Match, Miss, Link } from 'react-router'
+import Home from './components/home'
+import NotFound from './components/not-found'
+import Project from './components/project'
+import MilestoneDetails from './components/project/milestones/details'
+import ProjectList from './components/project-list'
+import ProjectSetup from './components/project-setup'
 import logo from '../logo.svg'
 import './app.css'
 // import { loadProduct } from '../utils/bd-api'
-
-const Home = () => (
-  <div>
-    <p className="App-intro">
-      To get started, edit <code>src/App.js</code> and save to reload.
-    </p>
-    <span className="with-sass">I am styled with SASS</span>
-  </div>
-)
-
-const About = (props) => {
-  console.log(props)
-  return (
-    <h1>About</h1>
-  )
-}
-
-const NoMatch = (props) => {
-  console.log(props)
-  return (
-    <div>
-      <h1>404</h1>
-      <p>Sorry but didn’t match any pages</p>
-    </div>
-  )
-}
 
 class App extends Component {
   constructor(props) {
@@ -57,12 +37,19 @@ class App extends Component {
               name && <span>, {name}</span>
             }
             </h2>
+            <div className="breadcrumbs">
+              <Link to="/">Home</Link><span> | </span>
+              <Link to="/projects/add">Add Project</Link><span> | </span>
+              <Link to="/projects">Projects</Link><span> | </span>
+            </div>
           </div>
-          <Link to="/">Home</Link><span> | </span>
-          <Link to="/about">About</Link>
+
           <Match exactly pattern="/" component={Home} />
-          <Match pattern="/about" component={About} />
-          <Miss component={NoMatch}/>
+          <Match exactly pattern="/projects" component={ProjectList} />
+          <Match exactly pattern="/projects/:id(\d+)" component={Project} />
+          <Match exactly pattern="/projects/:id(\d+)/milestones/(\d+)" component={MilestoneDetails} />
+          <Match exactly pattern="/projects/add" component={ProjectSetup} />
+          <Miss component={NotFound}/>
         </div>
       </BrowserRouter>
     )
