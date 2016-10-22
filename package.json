@@ -7,7 +7,7 @@
     "@kadira/storybook": "2.24.0",
     "@kadira/storybook-addon-knobs": "1.2.3",
     "node-sass": "3.10.1",
-    "react-scripts": "0.6.1",
+    "react-scripts": "0.7.0",
     "sw-precache": "4.1.0"
   },
   "dependencies": {
